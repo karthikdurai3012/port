@@ -1,0 +1,43 @@
+.pro-title{
+    position: relative;
+}
+.pro-title::after{
+    position: absolute;
+    content: "";
+    width:100%;
+    height: 2px;
+    background-color: grey;
+    left:0;
+    bottom: 0;
+}
+.pro-con{
+    min-height: 600px;
+}
+.pro-desc{
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+#python{
+    color: #4584B6;
+}
+
+
+
+#image{
+    animation: floatimg 2s ease-in-out infinite;
+}
+
+
+@keyframes floatimg {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform:translateY(-2rem);
+
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
