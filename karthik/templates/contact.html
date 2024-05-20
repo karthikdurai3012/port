@@ -1,0 +1,37 @@
+{% extends 'layouts/main.html' %}
+
+{% block content %}
+
+<div class="container" style="min-height: 600px;">
+    <div class="row">
+        <div class="col-md-6">
+            <form>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Your Name</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name">
+                  </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Company Name</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Company Name">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Enter Your Comments</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Enter Your Messange" rows="5"></textarea>
+                  </div>
+            </form>
+            
+              <button class="btn btn-primary" type="submit">submit</button>
+
+        </div>
+
+    </div>
+
+
+</div>
+
+
+{% endblock content %}
